@@ -104,7 +104,7 @@ function calculateTotal()
     //display the result
     var divobj = document.getElementById('totalPrice');
     divobj.style.display='block';
-    divobj.innerHTML = "Total Price = $"+ServicesPrice;
+    divobj.innerHTML = "Total Price = ¥"+ServicesPrice;
 
 }
 
