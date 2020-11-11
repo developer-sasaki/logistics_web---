@@ -110,7 +110,7 @@
                                             </ul>
                                         </li>
                                         <li><a href="blog.html">ブログ</a></li>
-                                        <li><a href="https://go.newpacific.info/l/885863/2020-11-08/9p46">連絡先</a></li>
+                                        <li><a href="contact.html">連絡先</a></li>
                                     </ul>
 
                                     <div class="right-section">
@@ -160,7 +160,7 @@
                             </ul>
                         </li>
                         <li><a href="blog.html">ブログ</a></li>
-                        <li><a href="https://go.newpacific.info/l/885863/2020-11-08/9p46">連絡先</a></li>
+                        <li><a href="contact.html">連絡先</a></li>
                     </ul>
 
                     <div class="info">
@@ -516,6 +516,20 @@
         <!-- External -->
         <script type="text/javascript" src="js/plugin.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
-
+        <script type="text/javascript">
+            piAId = '886863';
+            piCId = '4558';
+            piHostname = 'pi.pardot.com';
+            
+            (function() {
+                function async_load(){
+                    var s = document.createElement('script'); s.type = 'text/javascript';
+                    s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                    var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+                }
+                if(window.attachEvent) { window.attachEvent('onload', async_load); }
+                else { window.addEventListener('load', async_load, false); }
+            })();
+        </script>
     </body>
 </html>
