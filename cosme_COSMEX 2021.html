@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en-US"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en-US"> <![endif]-->
+<!--[if gte IE 8]><html class="ie ie8" lang="en-US"> <![endif]-->
+
+<html dir="ltr" lang="en-US">
+
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- Google Fonts
+        ============================================= -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,900,700,300" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+        <!-- Stylesheets
+        ============================================= -->
+        <link rel="stylesheet" href="css/plugin.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+        <!-- JavaScripts
+        ============================================= -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+        <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <title>Pacific | International Logistics & Transportation</title>
+    </head>
+
+    <body oncontextmenu="return false;"onload="hideTotal()">
+        <div id="preloader">
+            <div id="status">
+                <img src="img/logo.png" alt="" />
+            </div>
+        </div>
+
+        <!-- MAIN WRAPPER
+        ============================================= -->
+        <div id="main-wrapper" class="clearfix">
+
+            <!-- HEADER
+            ============================================= -->
+            <header id="header" class="clearfix">
+                <div class="site-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="top-header clearfix">
+                                <div class="logo col-md-4">
+                                    <a href="index.html">
+                                        <img src="img/logo.png" alt="" />
+                                    </a>
+                                </div>
+
+                                <div class="info col-md-8">
+                                    <ul>
+                                        <li>
+                                            <i class="fa fa-clock-o"></i>
+                                            <p>
+                                                <span class="heading">受付時間</span>
+                                                <span>月-金: 09.00 - 17.00</span>
+                                            </p>
+                                        </li>
+                                        <!-- <li>
+                                            <i class="fa fa-phone"></i>
+                                            <p>
+                                                <span class="heading">Call Us</span>
+                                                <span>(064) 234 54876</span>
+                                            </p>
+                                        </li> -->
+                                        <li class="last">
+                                            <i class="fa fa-envelope"></i>
+                                            <p>
+                                                <span class="heading">Email </span>
+                                                <span>info@newpacific.info</span>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="slide-buttons">
+                                    <button id="slide-buttons" class="slide-button icon icon-navicon"></button>
+                                </div>
+                            </div>
+
+                            <div class="navigation">
+                                <div class="main-menu">
+                                    <ul class="menu">
+                                        <li class="has-sub"><a href="index.html">ホーム</a>
+                                        	<!-- <ul>
+                                        		<li><a href="index.html">Header Style 1</a></li>
+                                        		<li><a href="header-style-2.html">Header Style 2</a></li>
+                                        	</ul> -->
+                                        </li>
+                                        <li><a href="about-us.html">当社について</a></li>
+                                        <li class="has-sub"><a href="services.html">サービス</a>
+                                            <ul>
+                                                <li><a href="single-services.html">内陸輸送</a></li>
+                                                <li><a href="single-services_sea.html">海上輸送</a></li>
+                                                <li><a href="single-services_air.html">航空輸送</a></li>
+                                                <!-- <li><a href="single-services.html">貨物</a></li> -->
+                                                <li><a href="single-services_wh.html">倉庫保管</a></li>
+                                                <li class="last"><a href="single-services_pak.html">輸出梱包</a></li>
+                                                <li><a href="single-services_ex.html">国際見本市輸送</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="blog.html">ブログ</a></li>
+                                        <li><a href="contact.html">連絡先</a></li>
+                                    </ul>
+
+                                    <div class="right-section">
+                                        <div class="search">
+                                            <i class="fa fa-search"></i>
+                                        </div>
+                                        <div class="quote-link">
+                                            <a href="https://go.newpacific.info/l/885863/2020-11-08/9nbn">見積依頼</a>
+                                        </div>
+                                        <div class="search-input">
+                                            <input type="text" name="s" placeholder="Type some text in here..." class="untouched">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Mobile
+                ============================================= -->
+                <nav id="c-menu--slide-right" class="c-menu c-menu--slide-right">
+                    <button class="c-menu__close icon icon-close"></button>
+
+                    <div class="search-input">
+                        <input type="text" name="s" placeholder="Type some text in here..." class="untouched">
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+
+                    <ul class="slide-menu-items">
+                        <li class="has-sub"><a href="index.html">Home</a>
+                        	<!-- <ul>
+                        		<li><a href="index.html">Header Style 1</a></li>
+                        		<li><a href="header-style-2.html">Header Style 2</a></li>
+                        	</ul> -->
+                        </li>
+                        <li><a href="about-us.html">当社について</a></li>
+                        <li class="has-sub"><a href="services.html">サービス</a>
+                            <ul>
+                                <li><a href="single-services.html">内陸輸送</a></li>
+                                               <li><a href="single-services_sea.html">海上輸送</a></li>
+                                               <li><a href="single-services_air.html">航空輸送</a></li>
+                                               <!-- <li><a href="single-services.html">貨物</a></li> -->
+                                               <li><a href="single-services_wh.html">倉庫保管</a></li>
+                                               <li class="last"><a href="single-services_pak.html">輸出梱包</a></li>
+                                               <li><a href="single-services_ex.html">国際見本市輸送</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">ブログ</a></li>
+                        <li><a href="contact.html">連絡先</a></li>
+                    </ul>
+
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <p>
+                                    <span class="heading">サービス時間</span>
+                                    <span>月ー金: 09.00 - 17.00</span>
+                                </p>
+                            </li>
+                            <!-- <li>
+                                <p>
+                                    <span class="heading">電話</span>
+                                    <span>(064) 234 54876</span>
+                                </p>
+                            </li> -->
+                            <li class="last">
+                                <p>
+                                    <span class="heading">Email</span>
+                                    <span>info@newpacific.info</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <div id="slide-overlay" class="slide-overlay"></div>
+                <!-- Menu Mobile End -->
+            </header>
+            <!-- HEADER END -->
+
+            <!-- PAGE TITLE START
+            ============================================= -->
+            <section class="page-title wrapper clearfix" style="background-image: url(img/about-page-bg.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="title-wrap wow fadeIn" data-wow-delay="1s">
+                            <h1>Event Logistics</h1>
+                            <div class="breadcrumbs">
+                                <p>You Are Here : 
+                                <span><a href="index.html">Home</a></span>
+                                <span class="arrow"><i class="icon icon-arrow-right"></i></span>
+                                <span><a href="blog.html">Blog</a></span>
+                                <span class="arrow"><i class="icon icon-arrow-right"></i></span>
+									<span>Event Logistics</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- PAGE TITLE END -->
+
+            <!-- CONTENT START
+            ============================================= -->
+            <section id="content" class="clearfix">
+                <!-- SERVICES START
+                ============================================= -->
+                <div class="blog single-post wrapper bg-color">
+                    <div class="container">
+                        <div class="row">
+                            <div class="blog-wrap row">
+                                <div class="post col-md-9">
+                                    <div class="post-item">
+                                        <div class="post-thumb">
+                                            <a href="single-post.html">
+                                                <img src="img/content/cosmex.jpg" alt="" />
+                                                <div class="overlay"></div>
+                                            </a>
+                                        </div>
+
+                                        <a href="single-post.html" class="post-title">
+                                            <h3>COSMEX 2021 展示品輸送スケジュール</h3>
+                                        </a>
+
+                                        <div class="meta">
+                                            <span class="author"><i class="fa fa-user"></i> Pacific inc</span>
+                                            <span class="date"><i class="fa fa-calendar"></i> 25 NOV 2020</span>
+                                            <span class="views"><i class="fa fa-eye"></i> 100 Views</span>
+                                            <span class="comments"><i class="fa fa-comment"></i> 0Comments</span>
+                                            <span class="tags last"><i class="fa fa-tag"></i> cosmetics</span>
+                                        </div>
+
+                                        <div class="text-contet">
+                                            <p>会期：2021年 11/2-11/4
+                                                開催都市：バンコク
+                                                会場：Bangkok International Trade & Exhibition Centre (BITEC)
+                                                web：https://www.cosmexshow.com
+                                                
+                                    
+                                            </p>
+
+                                            <blockquote>スケジュール
+                                                書類提出：10/1
+                                                集荷予定日：10/12
+                                                フライト：10/19
+                                                </blockquote>
+
+                                            <p>※こちらは現状の航空便スケジュールとなります。
+                                                変更される場合もございますので予めご了承ください。
+                                            </p>
+                                        </div>
+
+                                        <div class="share">
+                                            <span>Share : </span>
+                                            <ul>
+                                                <li><a href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                                                <!-- <li><a href="http://tumblr.com"><i class="fa fa-tumblr"></i></a></li>
+                                                <li><a href="http://vimeo.com"><i class="fa fa-vimeo"></i></a></li>
+                                                <li><a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a></li> -->
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="sidebar col-md-3">
+                                    <div class="widget recent-post">
+                                        <h4 class="title">最新記事</h4>
+                                        <div class="recent-post">
+                                            <div class="post-item">
+                                                <a href="single-post.html">
+                                                    <div class="post-thumb">
+                                                        <img src="img/content/recent-post-thumb-1.jpg" alt="" />
+                                                        <div class="overlay"></div>
+                                                    </div>
+                                                </a>
+                                                <div class="post-content">
+                                                    <a href="single-post.html">
+                                                        <h4>オフィスの引っ越しました。</h4>
+                                                    </a>
+                                                    <div class="meta">
+                                                        <span class="date">01 October, 2020</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="post-item">
+                                                <a href="single-post2.html">
+                                                    <div class="post-thumb">
+                                                        <img src="img/content/recent-post-thumb-2.jpg" alt="" />
+                                                        <div class="overlay"></div>
+                                                    </div>
+                                                </a>
+                                                <div class="post-content">
+                                                    <a href="single-post2.html">
+                                                        <h4>2020年も残り2ヶ月となりました。</h4>
+                                                    </a>
+                                                    <div class="meta">
+                                                        <span class="date">06 November, 2020</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="post-item">
+                                                <a href="single-post3.html">
+                                                    <div class="post-thumb">
+                                                        <img src="img/content/recent-post-thumb-3.jpg" alt="" />
+                                                        <div class="overlay"></div>
+                                                    </div>
+                                                </a>
+                                                <div class="post-content">
+                                                    <a href="single-post3.html">
+                                                        <h4>シッピングインストラクションは..</h4>
+                                                    </a>
+                                                    <div class="meta">
+                                                        <span class="date">18 June, 2020</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="post-item">
+                                                <a href="https://pacific-exl.com/%e8%bc%b8%e5%85%a5%e5%ae%9f%e5%8b%99%e3%81%ae%e4%bb%95%e7%b5%84%e3%81%bf/">
+                                                    <div class="post-thumb">
+                                                        <img src="img/content/recent-post-thumb-4.jpg" alt="" />
+                                                        <div class="overlay"></div>
+                                                    </div>
+                                                </a>
+                                                <div class="post-content">
+                                                    <a href="https://pacific-exl.com/%e8%bc%b8%e5%85%a5%e5%ae%9f%e5%8b%99%e3%81%ae%e4%bb%95%e7%b5%84%e3%81%bf/">
+                                                        <h4>輸入実務の仕組み</h4>
+                                                    </a>
+                                                    <div class="meta">
+                                                        <span class="date">21 August, 2020</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="widget archives">
+                                        <h4 class="title">タグ</h4>
+                                        <ul>
+                                            <li><a href="blog.html">October 2020</a></li>
+                                            <li><a href="blog.html">November 2020</a></li>
+                                            <li><a href="blog.html">December 2020</a></li>
+                                            <li><a href="blog.html">January 2021</a></li> 
+                                        </ul>
+                                    </div> -->
+
+                                    <!-- <div class="widget tags last">
+                                        <h4 class="title">アーカイブ</h4>
+                                        <div class="tag">
+                                            <a href="#">Warehouse</a>
+                                            <a href="#">Shipping</a>
+                                            <a href="#">Packaging</a>
+                                            <a href="#">Transport</a>
+                                            <a href="#">Truck</a>
+                                            <a href="#">Company</a>
+                                            <a href="#">Tips</a>
+                                            <a href="#">Business</a>
+                                            <a href="#">Courier</a>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SERVICES END -->
+            </section>
+            <!-- CONTENT END -->
+            
+             <!-- FOOTER START
+            ============================================= -->
+            <footer id="footer" class="wrapper clearfix">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-wrap row">
+                            <!-- WIDGET FOOTER 1 START
+                            ============================================= -->
+                            <div class="widget-footer col-md-3">
+                                <div class="short-desc">
+                                    <div class="logo-footer">
+                                        <img src="img/logo-footer.png" alt="" />
+                                    </div>
+                                    <p>会社名：株式会社 パシフィック</p> 
+                                    <p>代表取締役： 佐々木 慎 </p>
+                                    <p>国際複合物流輸送士</p>
+                                    <p>国際展示会・イベント物流スペシャリスト</p>
+                                    <p>主な事業内容：国際見本市・トレードフェア附帯業務、国際物流業務、貨物利用運送業</p>
+                                </div>
+                            </div>
+                            <!-- WIDGET FOOTER 1 END -->
+
+                            <!-- WIDGET FOOTER 2 START
+                            ============================================= -->
+                            <div class="widget-footer col-md-3">
+                                <div class="recent-post">
+                                    <h4 class="title">最近の記事</h4>
+                                    <div class="footer-content">
+                                        <div class="post-item">
+                                            <a href="single-post.html">
+                                                <div class="post-thumb">
+                                                    <img src="img/content/recent-post-thumb-1.jpg" alt="" />
+                                                    <div class="overlay"></div>
+                                                </div>
+                                            </a>
+                                            <div class="post-content">
+                                                <a href="single-post.html">
+                                                    <h4>オフィスの引っ越し</h4>
+                                                </a>
+                                                <p>2020年で10月より、当社は新しいオフィスに事務所を引っ越ししました。...</p>
+                                                <div class="meta">
+                                                    <span class="date">01 October, 2020</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="post-item">
+                                            <a href="single-post2.html">
+                                                <div class="post-thumb">
+                                                    <img src="img/content/recent-post-thumb-2.jpg" alt="" />
+                                                    <div class="overlay"></div>
+                                                </div>
+                                            </a>
+                                            <div class="post-content">
+                                                <a href="single-post.html">
+                                                    <h4>2020年も残り2ヶ月</h4>
+                                                </a>
+                                                <p>みなさん、こんばんは。少しお久しぶりなブログになってしまいました。少しずつですが展示会も再開されるようになって....</p>
+                                                <div class="meta">
+                                                    <span class="date">06 November, 2020</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- WIDGET FOOTER 2 END -->
+
+                           <!-- WIDGET FOOTER 3 START
+                            ============================================= -->
+                            <div class="widget-footer col-md-3">
+                                <div class="contact-footer">
+                                    <h4 class="title">Contact Us</h4>
+                                    <div class="footer-content">
+                                        <div class="contact-section">
+                                            <h4>Our Office Address</h4>
+                                            <p>〒231-0062 神奈川県横浜市中区</p>
+                                            <p>桜木町1-1-7</p>
+                                            <p>ヒューリックみなとみらい10階</p>
+                                            <p>Email : info@newpacific.info</p>
+                                        </div>
+                                        <!-- <div class="contact-section">
+                                            <h4>Our Storage Address</h4>
+                                            <p>Boulevard des Capucines</p>
+                                            <p>356, Coffee Street</p>
+                                            <p>Paris, France</p>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- WIDGET FOOTER 3 END -->
+                            
+                            <!-- WIDGET FOOTER 4 START
+                            ============================================= -->
+                            <!-- <div class="widget-footer col-md-3">
+                                <div class="buy-now">
+                                    <h4 class="title">Buy Now !</h4>
+                                    <div class="footer-content">
+                                        <p>Phasellus et nisl tellus. Etiam facilisis eu nisi scelerisque faucibus. Proin semper suscipit magna, nec imperdiet lacus semper vitae. Sed hendrerit enim non justo posuere placerat eget purus mauris.</p>
+
+                                        <a href="#" class="button-normal white">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- WIDGET FOOTER 4 END -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- COPYRIGHT START
+                ============================================= -->
+                <div class="copyright text-center">
+                    <div class="container">
+                        <div class="social-icon">
+                            <ul>
+                                <li><a href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                                <!-- <li><a href="http://tumblr.com"><i class="fa fa-tumblr"></i></a></li>
+                                <li><a href="http://vimeo.com"><i class="fa fa-vimeo"></i></a></li>
+                                <li><a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="http://dribbble.com"><i class="fa fa-dribbble"></i></a></li> -->
+                                <li><a href="http://instagram.com"><i class="fa fa-instagram"></i></a></li>
+                                <!-- <li><a href="http://rssfeed.com"><i class="fa fa-rss"></i></a></li> -->
+                            </ul>
+                        </div>
+                        <p>Copyright 2011 - 2020. All Rights Reserved. PACIFIC INC WEBSITE </p>
+                    </div>
+                </div>
+                <!-- COPYRIGHT END -->
+
+            </footer>
+            <!-- FOOTER END -->
+
+        </div>
+        <!-- MAIN WRAPPER END -->
+
+        <!-- Footer Scripts
+        ============================================= -->
+        <!-- External -->
+        <script type="text/javascript" src="js/plugin.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript">
+            piAId = '886863';
+            piCId = '4558';
+            piHostname = 'pi.pardot.com';
+            
+            (function() {
+                function async_load(){
+                    var s = document.createElement('script'); s.type = 'text/javascript';
+                    s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                    var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+                }
+                if(window.attachEvent) { window.attachEvent('onload', async_load); }
+                else { window.addEventListener('load', async_load, false); }
+            })();
+        </script>
+    </body>
+</html>
