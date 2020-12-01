@@ -1,0 +1,5 @@
+
+AuthUserFile "/home/miraclex/newpacific.info/htpasswd/my/.htpasswd"
+AuthName "Member Site"
+AuthType BASIC
+require valid-user
